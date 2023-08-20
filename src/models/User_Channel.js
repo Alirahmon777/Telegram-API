@@ -30,6 +30,7 @@ export const User_Channel = sq.define(
     is_admin: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
+      defaultValue: false,
     },
   },
   {
